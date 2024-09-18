@@ -1,5 +1,7 @@
 https://learn.snowflake.com/courses/course-v1:snowflake+LVLUP-307+A/courseware/fbda2df3329e4e53b9fa427c5980ce0d/f3f35ff5033e4f738af23663fa547a31/?child=first
 
+Knowledge Check:
+https://learn.snowflake.com/courses/course-v1:snowflake+LVLUP-307+A/course/
 ######################################################################################
 import snowflake.snowpark as snowpark
 from snowflake.snowpark.functions import col, udf
