@@ -1,0 +1,19 @@
+SNOWSQL
+
+CREATE FILE FORMAT NAME
+
+TYPE = CSV
+FIELD_DELIMITER= ’|‘
+
+SKIP_HEADER = 2
+
+
+//table_1_data.tbl --> PUT --->   table_1 snow pipe    (All stage data tables will be loaded into Snowflake)
+
+
+COPY INTO table_1
+  FROM <stage_name>
+  [FILES = ('<filename>' [, ’<file_name>'...]) ]
+  FILE_FORMAT = (FORMAT_NAME = <file_format_name>)
+
+  
