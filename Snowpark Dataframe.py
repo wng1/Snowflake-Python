@@ -17,10 +17,10 @@ def create_dataframe(session):
 df_table.count()
 print(df_table.count())
 
-#show method
+#show method - used to display the data frame to the console,  once used after transformation, dataframe is displayed and not stored in memory
 df_table.show()
 
-#collect method
+#collect method - retrieve data from the dataframe and return it as an array of row objects that can be stored in memory
 df_result = df_tabke.collect()
 print(df_results)
 
